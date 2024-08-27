@@ -1,0 +1,120 @@
+
+body{
+    overflow-x: hidden;
+}
+
+
+#head {
+    color: rgb(221, 36, 36);
+    font-family: 'Lato', sans-serif;
+    }
+
+header {
+    background-color: #ffffff;
+     margin-top: -8px;
+     padding-top: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-bottom: 10px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(228, 228, 228);
+    box-shadow: 0px 4px 10px rgb(175, 175, 175);
+    
+}
+#intro {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgb(175, 175, 175);
+    color: #e74c3c;
+    border-top: 10px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border-color: rgb(228, 228, 228);
+    padding-bottom: 20px;
+
+}
+
+#enq {
+    margin-top: 20px;
+    background-color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(288, 288, 288);
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    box-shadow: 0px 4px 10px rgb(87, 87, 87);
+
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: rgb(235, 235, 235);
+  }
+  
+
+#forms{
+    width: 280px;
+    height: 25px;
+    margin-top: 20px;
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(182, 182, 182);
+    padding-left: 10PX;
+    box-shadow: 0px 4px 10px rgb(175, 175, 175)
+
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: #e74c3c;
+}
+p {
+ font-family: 'Lato', sans-serif;  
+ color: #333;; 
+}
+
+@media(min-width: 412px) {
+    video{
+        width: 400px;
+        height: 300px;
+    }
+}
+@media(min-width: 375px) {
+    video{
+        width: 350px;
+        height: 250px;
+    }
+}
+@media(min-width: 540px) {
+    video{
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media(min-width: 780px) {
+    #intro {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #enq {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+}
+@media(max-width: 720px) {
+    head{
+        font-size: 20px
+    }
+}
